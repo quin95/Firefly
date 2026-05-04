@@ -1,92 +1,86 @@
 import {
-	LinkPreset,
 	type NavBarConfig,
 	type NavBarLink,
 	type NavBarSearchConfig,
 	NavBarSearchMethod,
 } from "../types/config";
-import { siteConfig } from "./siteConfig";
 
 // 根据页面开关动态生成导航栏配置
 const getDynamicNavBarConfig = (): NavBarConfig => {
-	// 基础导航栏链接
-	const links: (NavBarLink | LinkPreset)[] = [
-		// 主页
-		LinkPreset.Home,
-
-		// 归档
-		LinkPreset.Archive,
+	const links: NavBarLink[] = [
+		{
+			name: "首页",
+			url: "/",
+			icon: "material-symbols:home",
+		},
+		{
+			name: "归档",
+			url: "/archive/",
+			icon: "material-symbols:archive",
+		},
+		{
+			name: "分类",
+			url: "/archive/?category=Java%E5%BC%80%E5%8F%91",
+			icon: "material-symbols:category",
+			children: [
+				{
+					name: "Java开发",
+					url: "/archive/?category=Java%E5%BC%80%E5%8F%91",
+					icon: "material-symbols:code-blocks",
+				},
+				{
+					name: "AI实践",
+					url: "/archive/?category=AI%E5%AE%9E%E8%B7%B5",
+					icon: "material-symbols:smart-toy",
+				},
+				{
+					name: "逆向分析",
+					url: "/archive/?category=%E9%80%86%E5%90%91%E5%88%86%E6%9E%90",
+					icon: "material-symbols:bug-report",
+				},
+			],
+		},
+		{
+			name: "标签",
+			url: "/archive/?tag=Java",
+			icon: "material-symbols:tag",
+			children: [
+				{
+					name: "Java",
+					url: "/archive/?tag=Java",
+					icon: "material-symbols:coffee",
+				},
+				{
+					name: "Spring",
+					url: "/archive/?tag=Spring",
+					icon: "material-symbols:deployed-code",
+				},
+				{
+					name: "AI",
+					url: "/archive/?tag=AI",
+					icon: "material-symbols:auto-awesome",
+				},
+				{
+					name: "LLM",
+					url: "/archive/?tag=LLM",
+					icon: "material-symbols:psychology",
+				},
+				{
+					name: "逆向",
+					url: "/archive/?tag=%E9%80%86%E5%90%91",
+					icon: "material-symbols:frame-inspect",
+				},
+			],
+		},
+		{
+			name: "关于我",
+			url: "/about/",
+			icon: "material-symbols:person",
+		},
 	];
 
-	// 根据配置决定是否添加友链，在siteConfig关闭pages.friends时导航栏不显示友链
-	if (siteConfig.pages.friends) {
-		links.push(LinkPreset.Friends);
-	}
-
-	// 根据配置决定是否添加留言板，在siteConfig关闭pages.guestbook时导航栏不显示留言板
-	if (siteConfig.pages.guestbook) {
-		links.push(LinkPreset.Guestbook);
-	}
-
-	// 我的及其子菜单
-	links.push({
-		name: "我的",
-		url: "/my/",
-		icon: "material-symbols:person",
-		children: [
-			// 根据配置决定是否添加相册，在siteConfig关闭pages.gallery时导航栏不显示相册
-			...(siteConfig.pages.gallery ? [LinkPreset.Gallery] : []),
-
-			// 根据配置决定是否添加番组计划，在siteConfig关闭pages.bangumi时导航栏不显示番组计划
-			...(siteConfig.pages.bangumi ? [LinkPreset.Bangumi] : []),
-		],
-	});
-
-	// 关于及其子菜单
-	links.push({
-		name: "关于",
-		url: "/content/",
-		icon: "material-symbols:info",
-		children: [
-			// 根据配置决定是否添加赞助，在siteConfig关闭pages.sponsor时导航栏不显示赞助
-			...(siteConfig.pages.sponsor ? [LinkPreset.Sponsor] : []),
-
-			// 关于页面
-			LinkPreset.About,
-		],
-	});
-
-	// 自定义导航栏链接,并且支持多级菜单
-	links.push({
-		name: "链接",
-		url: "/links/",
-		icon: "material-symbols:link",
-
-		// 子菜单
-		children: [
-			{
-				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:github",
-			},
-			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:gitee",
-			},
-			{
-				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
-				external: true,
-				icon: "fa7-brands:qq",
-			},
-		],
-	});
-
 	// 仅返回链接，其它导航搜索相关配置在模块顶层常量中独立导出
-	return { links } as NavBarConfig;
+	return { links };
 };
 
 // 导航搜索配置

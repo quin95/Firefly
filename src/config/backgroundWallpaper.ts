@@ -71,17 +71,14 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "朝昆Blog",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"聚焦可落地的技术实践：从 Java 工程到 AI 增效，再到逆向分析。",
+				"记录 Java 工程实践、AI 应用探索与逆向分析笔记。",
+				"关注原理、实现与可复用经验。",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",

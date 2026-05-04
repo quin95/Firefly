@@ -1,8 +1,8 @@
 ---
 title: 草稿示例
 published: 1970-01-01
-tags: [Markdown, 博客, 演示]
-category: 文章示例
+tags: [逆向, 安全研究, 调试]
+category: AI实践
 draft: true
 ---
 
@@ -16,7 +16,7 @@ draft: true
 ---
 title: 草稿示例
 published: 2024-01-11T04:40:26.381Z
-tags: [Markdown, 博客, 演示]
-category: 示例
+tags: [逆向, 安全研究, 调试]
+category: 逆向分析
 draft: false
 ---
