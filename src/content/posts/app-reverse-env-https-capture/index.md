@@ -16,7 +16,7 @@ sourceLink: https://mp.weixin.qq.com/s/5lPVkF3jNc3hK6KFl1qR1w
 
 Android 逆向工程是指通过分析 APK 文件的代码、资源、网络通信等，理解其内部实现逻辑，甚至修改其行为的技术。常见的应用场景包括：协议分析、去广告、漏洞挖掘、竞品研究等。本文按完整环境搭建流程，带你在本地搭建一套 App 逆向环境，并抓取手机 APK 的 HTTPS 包。
 
-我本地环境是 Mac M3 芯片，没有合适的第三方模拟器，所以这里采用 Android Studio 自带的 AVD 模拟器。你如果有条件，也可以直接使用真实手机；Windows 用户则可以考虑雷电、夜神等模拟器。本文主要围绕 Android Studio 模拟器展开。
+我本地环境是 Mac M4 pro 芯片，这里采用 Android Studio 自带的 AVD 模拟器。你如果有条件，也可以直接使用真实手机；Windows 用户则可以考虑雷电、夜神等模拟器。本文主要围绕 Android Studio 模拟器展开。
 
 ## 环境说明
 
