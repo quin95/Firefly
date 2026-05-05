@@ -38,6 +38,11 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 					url: "/archive/?category=%E9%80%86%E5%90%91%E5%88%86%E6%9E%90",
 					icon: "material-symbols:bug-report",
 				},
+				{
+					name: "浮生随笔",
+					url: "/archive/?category=%E6%B5%AE%E7%94%9F%E9%9A%8F%E7%AC%94",
+					icon: "material-symbols:edit-note",
+				},
 			],
 		},
 		{
