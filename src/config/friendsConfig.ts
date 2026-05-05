@@ -23,30 +23,29 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
-		title: "夏夜流萤",
-		imgurl:
-			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-		siteurl: "https://blog.cuteleaf.cn",
-		tags: ["Blog"],
+		title: "Reqable",
+		imgurl: "https://reqable.com/favicon.ico",
+		desc: "接口调试、抓包与 API 分析工具，适合移动端网络排查。",
+		siteurl: "https://reqable.com/zh-CN/",
+		tags: ["Tools"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
-		title: "Firefly Docs",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Firefly主题模板文档",
-		siteurl: "https://docs-firefly.cuteleaf.cn",
-		tags: ["Docs"],
+		title: "Astro",
+		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
+		desc: "内容驱动站点框架，当前博客基于它构建。",
+		siteurl: "https://astro.build/",
+		tags: ["Framework"],
 		weight: 9,
 		enabled: true,
 	},
 	{
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
-		siteurl: "https://github.com/withastro/astro",
-		tags: ["Framework"],
+		title: "Charles Proxy",
+		imgurl: "https://www.charlesproxy.com/favicon.ico",
+		desc: "桌面端经典抓包代理工具，适合 HTTP / HTTPS 调试。",
+		siteurl: "https://www.charlesproxy.com/",
+		tags: ["Tools"],
 		weight: 8,
 		enabled: true,
 	},

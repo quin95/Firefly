@@ -24,13 +24,13 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/",
+			url: "https://github.com/chaokunwork",
 			showName: false,
 		},
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "mailto:your-email@example.com",
+			url: "mailto:chaokun.work@gmail.com",
 			showName: false,
 		},
 		{

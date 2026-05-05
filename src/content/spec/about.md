@@ -27,8 +27,8 @@
 
 ## 联系方式
 
-- 💻 **GitHub**： [GitHub 主页](https://github.com/)
-- ✉️ **Email**： [your-email@example.com](mailto:your-email@example.com)
+- 💻 **GitHub**： [GitHub 主页](https://github.com/chaokunwork)
+- ✉️ **Email**： [chaokun.work@gmail.com](mailto:chaokun.work@gmail.com)
 - 📡 **RSS**： [/rss/](/rss/)
 
 ---
