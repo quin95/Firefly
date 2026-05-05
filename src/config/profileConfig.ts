@@ -9,7 +9,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "朝昆Blog",
+	name: "朝昆",
 
 	// 个人签名
 	bio: "Java 开发者，持续记录 AI 应用实践与逆向分析过程。",
