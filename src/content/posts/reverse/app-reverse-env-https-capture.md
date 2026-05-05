@@ -1,7 +1,6 @@
 ---
 title: App逆向环境搭建：抓取 APK HTTPS 包
-published: 2026-05-05
-updated: 2026-05-05
+published: 2026-05-05T21:30:00+08:00
 description: 按完整实操流程搭建 Android 模拟器抓包环境，使用 Android Studio、Charles、Magisk 和 MoveCertificate 抓取 APK HTTPS 包。
 tags: [逆向, App逆向, Android, Charles, Magisk, HTTPS, 抓包]
 category: 逆向分析

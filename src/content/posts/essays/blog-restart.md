@@ -1,6 +1,6 @@
 ---
 title: 博客重新上线：从一篇 Markdown 开始
-published: 2026-05-05
+published: 2026-05-05T20:30:00+08:00
 description: 新博客重新上线，旧内容不再迁移，一切回到简单的 Markdown 记录与自动发布。
 tags: [博客, 随笔, Markdown, 自动发布]
 category: 浮生随笔

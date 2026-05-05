@@ -43,6 +43,11 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 					url: "/archive/?category=%E6%B5%AE%E7%94%9F%E9%9A%8F%E7%AC%94",
 					icon: "material-symbols:edit-note",
 				},
+				{
+					name: "开源项目",
+					url: "/archive/?category=%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE",
+					icon: "material-symbols:deployed-code",
+				},
 			],
 		},
 		{
