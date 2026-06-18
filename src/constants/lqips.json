@@ -32,5 +32,13 @@
   "public:gallery/firefly-2026/1.avif": "c8bca9dde6d2babfb5",
   "public:assets/images/sponsor/wechat.png": "d5d5d5dad9d7dbd8cf",
   "public:assets/images/sponsor/alipay.png": "8ebbde91bedf93c0e0",
-  "public:assets/images/ad/ad1.webp": "a1b8b68a8e918c8f93"
+  "public:assets/images/ad/ad1.webp": "a1b8b68a8e918c8f93",
+  "src:content/posts/images/sublink-2.png": "e5e3e1e1dbd8e8e5e3",
+  "src:content/posts/images/sublink-1.png": "ebebe9ececebe1d2d1",
+  "src:content/posts/images/docusaurus.avif": "445347e2e8e3e8e4dc",
+  "src:content/posts/images/category/suibi.png": "e1e3f9d4d8f8c1c7fa",
+  "src:content/posts/images/category/reverse.png": "e4e5fae4e5f7dcdefa",
+  "src:content/posts/images/category/open-source.png": "e1e2f8c8ccf7b7bef9",
+  "src:content/posts/images/category/java.png": "dae2f1d9e1f1819dc7",
+  "src:content/posts/images/category/ai.png": "e9eaf9c7ccf8b5bef9"
 }
