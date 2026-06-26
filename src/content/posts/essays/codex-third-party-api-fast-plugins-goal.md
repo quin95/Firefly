@@ -6,7 +6,7 @@ tags: [Codex, AI, 第三方API, 插件, Goal, 随笔]
 category: 浮生随笔
 draft: false
 image: "../images/category/suibi.png"
-author: 朝昆
+author: Quin.Lin
 ---
 
 `Codex App` 里有些功能，并不是所有登录方式下都会稳定出现。

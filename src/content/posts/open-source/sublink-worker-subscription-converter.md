@@ -6,7 +6,7 @@ tags: [SubLink Quin, 订阅转换, 开源项目, Cloudflare Workers, Hono]
 category: 开源项目
 draft: false
 image: "../images/category/open-source.png"
-author: 朝昆
+author: Quin.Lin
 sourceLink: https://github.com/quin95/sublink-worker
 ---
 

@@ -6,7 +6,7 @@ tags: [Komari, 服务器监控, 1Panel, Docker, 开源项目]
 category: 开源项目
 draft: false
 image: "../images/category/open-source.png"
-author: 朝昆
+author: Quin.Lin
 sourceLink: https://www.iloli.love/archives/1769602819038
 licenseName: CC BY 4.0
 licenseUrl: https://creativecommons.org/licenses/by/4.0/

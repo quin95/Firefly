@@ -6,7 +6,7 @@ tags: [逆向, App逆向, Android, Charles, Magisk, HTTPS, 抓包]
 category: 逆向分析
 draft: false
 image: ../images/category/reverse.png
-author: 朝昆
+author: Quin.Lin
 sourceLink: https://mp.weixin.qq.com/s/5lPVkF3jNc3hK6KFl1qR1w
 ---
 

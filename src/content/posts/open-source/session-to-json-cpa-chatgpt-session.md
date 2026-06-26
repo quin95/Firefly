@@ -6,7 +6,7 @@ tags: [SessionToJson, ChatGPT, CPA, Chrome插件, 开源项目]
 category: 开源项目
 draft: false
 image: "../images/category/open-source.png"
-author: 朝昆
+author: Quin.Lin
 sourceLink: https://github.com/killervillsy/SessionToJson
 ---
 

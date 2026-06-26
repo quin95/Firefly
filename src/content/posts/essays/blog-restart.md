@@ -6,7 +6,7 @@ tags: [博客, 随笔, Markdown, 自动发布]
 category: 浮生随笔
 draft: false
 image: "../images/category/suibi.png"
-author: 朝昆
+author: Quin.Lin
 ---
 
 兜兜转转，博客又重新上线了。

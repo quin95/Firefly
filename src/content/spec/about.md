@@ -1,6 +1,6 @@
 # 关于我
 
-你好，我是 **朝昆**。
+你好，我是 **Quin.Lin**。
 
 一名以 **Java 开发** 为主的程序员，也持续关注 **AI 应用实践** 与 **逆向分析**。这个博客主要用于记录学习、实战和踩坑总结，尽量把零散经验整理成可复用、可检索的技术笔记。
 
@@ -27,7 +27,7 @@
 
 ## 联系方式
 
-- 💻 **GitHub**： [GitHub 主页](https://github.com/chaokunwork)
+- 💻 **GitHub**： [GitHub 主页](https://github.com/quin95/)
 - ✉️ **Email**： [chaokun.work@gmail.com](mailto:chaokun.work@gmail.com)
 - 📡 **RSS**： [/rss/](/rss/)
 

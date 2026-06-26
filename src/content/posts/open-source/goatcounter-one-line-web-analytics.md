@@ -6,7 +6,7 @@ tags: [GoatCounter, 网站统计, 开源项目, Markdown]
 category: 开源项目
 draft: false
 image: "../images/category/open-source.png"
-author: 朝昆
+author: Quin.Lin
 ---
 
 如果你只是想知道“我的网站有没有人看”“哪些文章更受欢迎”“访问主要来自哪里”，其实不一定要上复杂的统计平台。

@@ -6,7 +6,7 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "朝昆Blog",
+	title: "Quin.Lin Blog",
 
 	// 站点副标题
 	subtitle: "Java开发 · AI实践 · 逆向分析",
@@ -77,10 +77,10 @@ export const siteConfig: SiteConfig = {
 		logo: {
 			type: "image",
 			value: "assets/images/firefly.png",
-			alt: "朝昆Blog",
+			alt: "Quin.Lin Blog",
 		},
 		// 导航栏标题
-		title: "朝昆Blog",
+		title: "Quin.Lin Blog",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
